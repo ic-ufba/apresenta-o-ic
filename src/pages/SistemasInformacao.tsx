@@ -52,8 +52,8 @@ const SistemasInformacao = () => {
                 <h3 className="text-xl font-bold text-gray-800">Carga Horária</h3>
               </div>
               <p className="text-gray-700"><strong>Total:</strong> Aproximadamente 3.355 horas</p>
-              <p className="text-gray-700"><strong>Duração:</strong> 4,5 anos (9 semestres)</p>
-              <p className="text-gray-700"><strong>Turno:</strong> Noturno</p>
+              <p className="text-gray-700"><strong>Duração:</strong> Projetado para 4,5 anos (9 semestres)</p>
+              <p className="text-gray-700"><strong>Turno:</strong> Noturno, permite trabalhar durante o dia</p>
             </div>
 
             <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-3xl shadow-soft">

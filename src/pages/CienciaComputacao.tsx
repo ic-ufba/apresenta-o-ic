@@ -52,14 +52,14 @@ const CienciaComputacao = () => {
                 <h3 className="text-xl font-bold text-gray-800">Carga Horária</h3>
               </div>
               <p className="text-gray-700"><strong>Total:</strong> Aproximadamente 3.347 horas</p>
-              <p className="text-gray-700"><strong>Duração:</strong> 4 anos (8 semestres)</p>
-              <p className="text-gray-700"><strong>Turno:</strong> Diurno</p>
+              <p className="text-gray-700"><strong>Duração:</strong> Projetado para 4 anos (8 semestres)</p>
+              <p className="text-gray-700"><strong>Turno:</strong> Diurno, favorece imersão em pesquisa e extensão</p>
             </div>
 
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl shadow-soft">
               <div className="flex items-center gap-4 mb-4">
                 <Users className="w-8 h-8 text-blue-600" />
-                <h3 className="text-xl font-bold text-gray-800">Vantagens</h3>
+                <h3 className="text-xl font-bold text-gray-800">Vantagens do Diurno</h3>
               </div>
               <p className="text-gray-700 text-sm mb-2">• Imersão total no ecossistema universitário</p>
               <p className="text-gray-700 text-sm mb-2">• Acesso facilitado a pesquisa e extensão</p>

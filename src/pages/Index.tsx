@@ -354,42 +354,42 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="group relative bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl shadow-soft hover:shadow-strong transition-all duration-500 transform hover:-translate-y-3">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-2xl mb-6 shadow-medium">
+            <div className="group relative bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl shadow-soft hover:shadow-strong transition-all duration-500 transform hover:-translate-y-3 border-l-4 border-blue-600">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-2xl mb-6 shadow-medium">
                 <Code className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4 group-hover:text-gray-900 transition-colors">Ciência da Computação</h3>
+              <h3 className="text-2xl font-bold text-blue-800 mb-4 group-hover:text-blue-900 transition-colors">Ciência da Computação</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">Ideal para quem quer mergulhar no mundo da tecnologia, entender como funcionam os sistemas por trás de tudo e criar inovações com código, lógica e criatividade.</p>
               <a href="/ciencia-computacao">
-                <Button variant="course" className="w-full">
+                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
                   Conhecer Curso
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </a>
             </div>
 
-            <div className="group relative bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-3xl shadow-soft hover:shadow-strong transition-all duration-500 transform hover:-translate-y-3">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-secondary rounded-2xl mb-6 shadow-medium">
+            <div className="group relative bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-3xl shadow-soft hover:shadow-strong transition-all duration-500 transform hover:-translate-y-3 border-l-4 border-green-600">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-green-600 rounded-2xl mb-6 shadow-medium">
                 <Building className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4 group-hover:text-gray-900 transition-colors">Sistemas de Informação</h3>
+              <h3 className="text-2xl font-bold text-green-800 mb-4 group-hover:text-green-900 transition-colors">Sistemas de Informação</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">Une tecnologia e gestão, formando pessoas capazes de usar a computação para resolver problemas de empresas, negócios e organizações.</p>
               <a href="/sistemas-informacao">
-                <Button variant="course-green" className="w-full">
+                <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
                   Conhecer Curso
                   <ArrowRight className="w-4 h-4" />
                 </Button>
               </a>
             </div>
 
-            <div className="group relative bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-3xl shadow-soft hover:shadow-strong transition-all duration-500 transform hover:-translate-y-3">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-ufba-purple to-purple-700 rounded-2xl mb-6 shadow-medium">
+            <div className="group relative bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-3xl shadow-soft hover:shadow-strong transition-all duration-500 transform hover:-translate-y-3 border-l-4 border-purple-600">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-600 rounded-2xl mb-6 shadow-medium">
                 <GraduationCap className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4 group-hover:text-gray-900 transition-colors">Licenciatura em Computação</h3>
+              <h3 className="text-2xl font-bold text-purple-800 mb-4 group-hover:text-purple-900 transition-colors">Licenciatura em Computação</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">Para quem quer usar a tecnologia para transformar a educação e formar as próximas gerações com criatividade, inclusão e inovação.</p>
               <a href="/licenciatura-computacao">
-                <Button variant="course-purple" className="w-full">
+                <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white">
                   Conhecer Curso
                   <ArrowRight className="w-4 h-4" />
                 </Button>
