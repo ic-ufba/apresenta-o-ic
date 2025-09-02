@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Sparkles, ArrowRight, Building, Users, BookOpen, Lightbulb, Trophy, Globe, ExternalLink, CircleCheckBig, GraduationCap, Code, Smartphone, Bot, Palette, Shield, ChartColumn, Laptop, Briefcase, FlaskConical } from "lucide-react";
+import { Sparkles, ArrowRight, Building, Users, BookOpen, Lightbulb, Trophy, Globe, ExternalLink, CircleCheckBig, GraduationCap, Code, Smartphone, Bot, Palette, Shield, ChartColumn, Laptop, Briefcase, FlaskConical, MapPin, Phone, Instagram } from "lucide-react";
 
 const Index = () => {
   const scrollToCourses = () => {
@@ -77,7 +77,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              🏛️ Instituto de Computação (IC) da <span className="text-ufba-blue">UFBA</span>
+              Instituto de Computação (IC) da <span className="text-ufba-blue">UFBA</span>
             </h2>
           </div>
 
@@ -108,69 +108,13 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Cursos de Graduação */}
-          <div className="bg-gradient-primary text-white p-8 rounded-3xl mb-16">
-            <h3 className="text-3xl font-bold mb-8 text-center">🎓 Cursos de Graduação</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
-                <h4 className="text-xl font-bold mb-3">Bacharelado em Ciência da Computação (BCC)</h4>
-                <p className="text-blue-100 text-sm mb-2"><strong>Criação:</strong> 2010</p>
-                <p className="text-blue-100 text-sm">Formar profissionais com sólida base científica e tecnológica, capazes de projetar, desenvolver e avaliar sistemas computacionais complexos, atuando com competência em pesquisa, inovação e resolução de problemas nas mais diversas áreas da Computação.</p>
-              </div>
-              
-              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
-                <h4 className="text-xl font-bold mb-3">Bacharelado em Sistemas de Informação (BSI)</h4>
-                <p className="text-green-100 text-sm mb-2"><strong>Criação:</strong> 2010</p>
-                <p className="text-green-100 text-sm">Formar profissionais capazes de planejar, organizar e gerenciar o processamento, armazenamento e recuperação de informações, atendendo às demandas do mercado de trabalho.</p>
-              </div>
-              
-              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
-                <h4 className="text-xl font-bold mb-3">Licenciatura em Computação (LC)</h4>
-                <p className="text-purple-100 text-sm mb-2"><strong>Criação:</strong> 2010</p>
-                <p className="text-purple-100 text-sm">Formar profissionais de educação com sólida formação em Computação e Informática, sendo educadores com domínio dos fundamentos da Computação e das metodologias de ensino, capazes de atuar de forma crítica, criativa e comprometida com a inclusão e a inovação no ensino.</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Projetos e Pesquisas */}
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              🧠 Projetos e <span className="text-ufba-purple">Pesquisas</span>
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-3xl">
-              <div className="flex items-center gap-4 mb-6">
-                <Trophy className="w-8 h-8 text-ufba-green" />
-                <h3 className="text-2xl font-bold text-gray-800">InovaComp – Núcleo de Inovação</h3>
-              </div>
-              <p className="text-gray-700">Laboratório virtual que promove a experimentação e o desenvolvimento de sistemas, hardware e software. Ambiente ideal para estimular a criatividade, o trabalho em equipe e o empreendedorismo através de projetos de tecnologia da informação.</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-3xl">
-              <div className="flex items-center gap-4 mb-6">
-                <Globe className="w-8 h-8 text-ufba-orange" />
-                <h3 className="text-2xl font-bold text-gray-800">Grupos de Pesquisa</h3>
-              </div>
-              <div className="space-y-2 text-gray-700 text-sm">
-                <p><strong>ToLOCA:</strong> Teoria da Computação, Lógica, Otimização, Combinatória e Algoritmos</p>
-                <p><strong>iVisionLab:</strong> Percepção de Máquina e Computação Gráfica</p>
-                <p><strong>FORMAS:</strong> Formalismos e Aplicações Semânticas</p>
-                <p><strong>Gaudi:</strong> Algoritmos e Computação Distribuída</p>
-                <p><strong>LASID:</strong> Laboratório de Sistemas Distribuídos</p>
-                <p><strong>LES:</strong> Laboratório de Engenharia de Software</p>
-              </div>
-            </div>
-          </div>
-
           {/* Vivência Estudantil */}
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              🎒 Vivência <span className="text-ufba-blue">Estudantil</span>
+              Vivência <span className="text-ufba-blue">Estudantil</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              A jornada no Instituto de Computação vai muito além das salas de aula. A vivência universitária é enriquecida por uma série de iniciativas que conectam os estudantes, promovem o aprendizado prático e abrem portas para o mercado de trabalho.
+              Vida Estudantil no IC/UFBA: Mais que um Curso, uma Experiência. A jornada no Instituto de Computação vai muito além das salas de aula. A vivência universitária é enriquecida por uma série de iniciativas que conectam os estudantes, promovem o aprendizado prático e abrem portas para o mercado de trabalho.
             </p>
           </div>
 
@@ -181,7 +125,7 @@ const Index = () => {
                 <h3 className="text-xl font-bold text-gray-800">Representação Estudantil</h3>
               </div>
               <div className="space-y-3 text-gray-700">
-                <p className="text-sm mb-4">Os estudantes são representados por suas entidades de base:</p>
+                <p className="text-sm mb-4">A Força Coletiva dos Alunos - Os estudantes do IC são representados por suas entidades de base:</p>
                 <div className="space-y-2">
                   <p className="text-sm"><strong>CASI</strong> - Centro Acadêmico de Sistemas de Informação</p>
                   <p className="text-sm"><strong>CACC</strong> - Centro Acadêmico de Ciência da Computação</p>
@@ -196,8 +140,9 @@ const Index = () => {
                 <h3 className="text-xl font-bold text-gray-800">Empresas Juniores</h3>
               </div>
               <div className="space-y-3 text-gray-700">
-                <p className="text-sm"><strong>InfoJr UFBA:</strong> Desenvolvimento de software e soluções digitais como sites, sistemas web e aplicativos.</p>
-                <p className="text-sm"><strong>TITAN:</strong> Projetos que integram hardware e software, automação, sistemas embarcados e IoT.</p>
+                <p className="text-sm mb-2">A Experiência do Mercado na Universidade:</p>
+                <p className="text-sm"><strong>InfoJr UFBA:</strong> Focada no desenvolvimento de software e soluções digitais como sites, sistemas web e aplicativos.</p>
+                <p className="text-sm"><strong>TITAN:</strong> Atua em projetos que integram hardware e software, como automação, sistemas embarcados e Internet das Coisas (IoT).</p>
               </div>
             </div>
 
@@ -207,54 +152,125 @@ const Index = () => {
                 <h3 className="text-xl font-bold text-gray-800">Projetos de Extensão</h3>
               </div>
               <div className="space-y-3 text-gray-700">
-                <p className="text-sm"><strong>Onda Digital:</strong> Programa de inclusão sociodigital na Bahia desde 2004.</p>
+                <p className="text-sm mb-2">Conectando a Universidade e a Sociedade:</p>
+                <p className="text-sm"><strong>Onda Digital:</strong> Programa permanente de inclusão sociodigital na Bahia desde 2004.</p>
                 <p className="text-sm"><strong>PROFCOMP:</strong> Formação de professores de Computação para educação básica.</p>
                 <p className="text-sm"><strong>GruPro:</strong> Maratonas de programação e programação competitiva.</p>
               </div>
             </div>
           </div>
 
-          {/* Prêmios */}
-          <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white p-8 rounded-3xl mb-16">
-            <h3 className="text-3xl font-bold mb-6 text-center">🏆 Prêmios e Reconhecimentos</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="text-4xl font-bold mb-2">2°</div>
-                <div className="text-sm">Melhor Projeto de Inovação TicTalk 2023</div>
+          {/* Grupos de Pesquisa */}
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+              Grupos de <span className="text-ufba-purple">Pesquisa</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+              Na Fronteira do Conhecimento - O IC/UFBA é um centro de pesquisa pulsante, abrigando múltiplos laboratórios e grupos dedicados a investigar os mais diversos ramos da Computação.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+            {[
+              "Insert - Infraestrutura e Sistemas para Redes e Telecom",
+              "Urban Computing Lab - Computação urbana e cidades inteligentes",
+              "ToLOCA - Teoria da Computação, Lógica, Otimização, Combinatória e Algoritmos",
+              "Aries Lab - Applied Research in Software Engineering",
+              "SPIDeLab - Semio-Participatory Interaction Design Research Laboratory",
+              "Recommender Systems Research - Sistemas de Recomendação",
+              "CEManTIKA - Semântica computacional e processamento de conhecimento",
+              "RISE Labs - Laboratório de pesquisa em Engenharia de Software",
+              "STER - Sistemas em Tempo Real",
+              "SoftVis - Grupo de Visualização de Software",
+              "FORMAS - Centro de Pesquisa em Dados e Linguagem Natural",
+              "Gaudi - Grupo de Algoritmos e Computação Distribuída",
+              "CInO - Computational Intelligence and Optimization Research Lab",
+              "GRADE - Grupo de Pesquisa em Redes de Alto Desempenho",
+              "Onda Digital - Informática, Educação e Sociedade",
+              "LES - Laboratório de Engenharia de Software",
+              "LASID - Laboratório de Sistemas Distribuídos",
+              "MEFES - Métodos Formais em Engenharia de Software",
+              "IvisionLab - Intelligent Vision Research Lab",
+              "WISER - Web, Internet and Intelligent Systems Research Group",
+              "Software Design and Evolution Group - aSide @ UFBA"
+            ].map((group, index) => (
+              <div key={index} className="bg-white p-6 rounded-2xl shadow-soft hover:shadow-medium transition-all duration-300">
+                <h4 className="text-sm font-semibold text-gray-800 leading-tight">{group}</h4>
               </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold mb-2">🥇</div>
-                <div className="text-sm">Melhor Artigo SBCARS</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl font-bold mb-2">🥇</div>
-                <div className="text-sm">Melhor Artigo SBES</div>
-              </div>
+            ))}
+          </div>
+
+          {/* Extensão */}
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+              <span className="text-ufba-green">Extensão</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+              Conectando a Universidade e a Sociedade - Os projetos de extensão do Instituto de Computação são a ponte que leva o conhecimento, a pesquisa e a inovação desenvolvidos no ambiente acadêmico para a comunidade externa.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div className="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-3xl">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Programa Onda Digital</h3>
+              <p className="text-gray-700 text-sm">Criado em 2004, é um programa permanente de extensão que visa contribuir com a inclusão sociodigital na Bahia. Coordenado pela Profª. Débora Abdalla, envolve a Universidade em ações educativas e de difusão da filosofia do Software Livre, atuando diretamente em comunidades para democratizar o acesso e o conhecimento tecnológico.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">PROFCOMP</h3>
+              <p className="text-gray-700 text-sm">Programa de Ações Pedagógicas para Formação de Professores de Computação - Focado no pilar educacional, visa suprir uma demanda crítica da sociedade: a formação de qualidade para professores de computação. Desenvolvido pelo grupo Onda Digital, contribui para a formação inicial e continuada de educadores da educação básica.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-3xl">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Maratonas de Programação (GruPro)</h3>
+              <p className="text-gray-700 text-sm">O GruPro é o grupo formado por professores e estudantes apaixonados por programação competitiva. A iniciativa busca inserir a cultura de maratonas de programação no dia a dia dos cursos de graduação, aprimorando o raciocínio lógico e a habilidade de resolução de problemas dos estudantes.</p>
+            </div>
+
+            <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-3xl">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Projeto Tomorrow</h3>
+              <p className="text-gray-700 text-sm">Em uma parceria com a Positivo, este projeto de extensão tem como missão democratizar o acesso a conhecimentos de ponta em computação. A iniciativa oferece cursos gratuitos, abertos e mensais sobre temas atuais como programação, inteligência artificial e cibersegurança.</p>
             </div>
           </div>
 
           {/* Pós-graduação */}
-          <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-8 rounded-3xl mb-16">
-            <h3 className="text-3xl font-bold mb-8 text-center">🎓 Pós-Graduação</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
-                <h4 className="text-xl font-bold mb-3">PGCOMP - Mestrado e Doutorado</h4>
-                <p className="text-indigo-100 text-sm mb-2"><strong>Conceito CAPES:</strong> 4</p>
-                <p className="text-indigo-100 text-sm">Programa de Pós-Graduação em Ciência da Computação com linhas em Computação Aplicada, Engenharia de Software e Sistemas Computacionais.</p>
-              </div>
-              
-              <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl">
-                <h4 className="text-xl font-bold mb-3">PPGM - Mecatrônica</h4>
-                <p className="text-purple-100 text-sm mb-2"><strong>Modalidade:</strong> Mestrado e Doutorado</p>
-                <p className="text-purple-100 text-sm">Programa interdisciplinar coordenado pelo IC e Escola Politécnica, na intersecção entre mecânica, eletrônica e computação.</p>
-              </div>
-            </div>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+              <span className="text-ufba-purple">Pós-Graduação</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto">
+              Aprofundando o Conhecimento - Para os estudantes e profissionais que desejam ir além da graduação, o Instituto de Computação oferece múltiplos caminhos para aprofundar a formação.
+            </p>
           </div>
 
-          {/* Cooperação */}
-          <div className="bg-white p-8 rounded-3xl shadow-soft text-center">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">🌐 Cooperação e Intercâmbio</h3>
-            <p className="text-gray-700 max-w-4xl mx-auto">O Instituto mantém parcerias com instituições nacionais e internacionais, promovendo projetos conjuntos de pesquisa e desenvolvimento, intercâmbio de docentes e estudantes, e participação em programas de doutorado sanduíche.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-8 rounded-3xl">
+              <h3 className="text-2xl font-bold mb-4">Mestrado e Doutorado (Stricto Sensu)</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-lg font-bold mb-2">PGCOMP - Programa de Pós-Graduação em Ciência da Computação</h4>
+                  <p className="text-indigo-100 text-sm mb-2"><strong>Conceito CAPES:</strong> 4 | <strong>Criação:</strong> 2014</p>
+                  <p className="text-indigo-100 text-sm">Linhas de Pesquisa: Computação Aplicada, Engenharia de Software e Sistemas Computacionais.</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold mb-2">PPGM - Programa de Pós-graduação em Mecatrônica</h4>
+                  <p className="text-purple-100 text-sm">Iniciativa interdisciplinar robusta, coordenada em conjunto pelo IC e pela Escola Politécnica. Ideal para aprofundar conhecimentos na intersecção entre mecânica, eletrônica e computação.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-green-600 to-teal-600 text-white p-8 rounded-3xl">
+              <h3 className="text-2xl font-bold mb-4">Especialização e Residência em TI (Lato Sensu)</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="text-lg font-bold mb-2">Residência em TI - Projetos para o Judiciário Federal</h4>
+                  <p className="text-green-100 text-sm">Curso de Pós-graduação Lato Sensu com foco prático, voltada para a formação de recursos humanos com alto grau de especialização em desenvolvimento de software para a Seção Judiciária da Bahia (SJBA).</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold mb-2">Residência em TI - Foco no Setor Público (TRE/BA)</h4>
+                  <p className="text-teal-100 text-sm">Curso de Pós-Graduação Lato Sensu para formar especialistas em desenvolvimento de software para o setor público, com foco no Tribunal Regional Eleitoral da Bahia (TRE/BA).</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -264,7 +280,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              🎓 Por que entrar na <span className="text-ufba-blue">universidade?</span>
+              Por que entrar na <span className="text-ufba-blue">universidade?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Entrar na UFBA é mais do que fazer um curso: é fazer parte de uma comunidade que pesquisa, cria, compartilha e <strong>transforma vidas através do conhecimento</strong>.
@@ -296,7 +312,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              🚀 O que você pode fazer com <span className="text-ufba-green">Computação?</span>
+              O que você pode fazer com <span className="text-ufba-green">Computação?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               A tecnologia está em todos os lugares — e quem domina Computação pode trabalhar em várias áreas:
@@ -330,7 +346,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              🧠 Cursos que fazem a <span className="text-ufba-purple">diferença</span>
+              Cursos que fazem a <span className="text-ufba-purple">diferença</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
               No Instituto de Computação da UFBA, você pode escolher entre <strong>três cursos incríveis</strong>, com perfis e possibilidades diferentes, mas todos com um ponto em comum: formar profissionais preparados para o futuro!
@@ -424,13 +440,16 @@ const Index = () => {
       <footer className="bg-gradient-to-r from-gray-900 to-black text-white py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">✨ Faça parte do futuro.</h2>
+            <h2 className="text-3xl font-bold mb-4">Faça parte do futuro.</h2>
             <p className="text-xl text-gray-300">O próximo nome da Computação pode ser o seu.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center md:text-left">
-              <h3 className="text-lg font-bold mb-4">📍 Local</h3>
+              <div className="flex items-center gap-3 justify-center md:justify-start mb-4">
+                <MapPin className="w-5 h-5 text-ufba-blue" />
+                <h3 className="text-lg font-bold">Local</h3>
+              </div>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Instituto de Computação (IC/UFBA)<br />
                 Av. Milton Santos - Ondina<br />
@@ -439,7 +458,10 @@ const Index = () => {
             </div>
             
             <div className="text-center">
-              <h3 className="text-lg font-bold mb-4">📞 Contato</h3>
+              <div className="flex items-center gap-3 justify-center mb-4">
+                <Phone className="w-5 h-5 text-ufba-green" />
+                <h3 className="text-lg font-bold">Contato</h3>
+              </div>
               <p className="text-gray-300 text-sm mb-2">(71) 3283-5750</p>
               <div className="space-y-2">
                 <div>
@@ -452,7 +474,10 @@ const Index = () => {
             </div>
             
             <div className="text-center md:text-right">
-              <h3 className="text-lg font-bold mb-4">📱 Instagram</h3>
+              <div className="flex items-center gap-3 justify-center md:justify-end mb-4">
+                <Instagram className="w-5 h-5 text-ufba-purple" />
+                <h3 className="text-lg font-bold">Instagram</h3>
+              </div>
               <a 
                 href="https://www.instagram.com/computacaoufba/" 
                 target="_blank" 
@@ -466,7 +491,7 @@ const Index = () => {
           
           <div className="border-t border-gray-700 mt-12 pt-8 text-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Instituto de Computação - UFBA. Todos os direitos reservados.
+              © 2025 Instituto de Computação - UFBA. Todos os direitos reservados.
             </p>
           </div>
         </div>
